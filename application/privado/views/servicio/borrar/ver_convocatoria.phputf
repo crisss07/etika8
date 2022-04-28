@@ -1,0 +1,14 @@
+﻿
+<?php 
+$prefijo = $this->prefijo;
+?>    
+<div class="cuadro_intro">           
+    <h1 style="text-align: center;"><?php echo $fila[$prefijo . 'cargo']; ?></h1>
+    <div align="left" >Fecha Tope: <font style=" color: #333399; font-weight: bold; font-size: 12px;"><?php echo $fila[$prefijo . 'tope']; ?></font></div>
+    <?php if ($fila[$prefijo . 'sede']) { ?>
+        <div align="left" >Sede: <font style=" color: #333399; font-weight: bold; font-size: 12px;"><?php echo $fila[$prefijo . 'sede']; ?></font></div>
+    <?php } ?>
+    <div align="justify"><?php echo $fila[$prefijo . 'descripcion']; ?></div>    
+</div>
+
+

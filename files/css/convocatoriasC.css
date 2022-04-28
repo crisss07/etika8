@@ -1,0 +1,332 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-06-2019, 10:15:52 AM
+    Author     : Fernando Choque
+*/
+@import url('./fonts.css');
+@import url('./colores.css');
+
+
+.box-footer,.box-footer div{
+    background: var(--plomo);
+}
+.box-footer #dibel,.box-footer #dibel a{
+    color: #ffffff !important;
+}
+.car-convocatoria{
+    height: 170px; 
+    border: 1px solid var(--naranja);
+    border-radius: 10px;
+    margin: 10px;
+}
+.car-convocatoria2{
+    height: 130px; 
+    border: 1px solid var(--naranja);
+    border-radius: 10px;
+    margin: 10px;
+   
+   
+}
+.car-convocatoria3{
+    height: 40px; 
+    border: 1px solid var(--naranja);
+    border-radius: 10px;
+    margin: 30px;
+}
+.car-sede{
+    height: 170px;
+    background: var(--naranja);
+    position: relative;
+    border-radius: 10px;
+}
+.car-sede2{
+    height: 130px;
+    background: var(--naranja);
+    position: relative;
+    border-radius: 10px;
+   
+}
+.car-sede span{
+    width: 210px;
+    position: absolute;
+    left: -70px;
+    top: 75px;
+    color: white;
+    text-align: center;
+    transform: rotate(-90deg);
+}
+.car-box a{
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+.car-box a:hover{
+    text-decoration: none;
+}
+
+.car-box a, .enlace-talentos,
+.car-box a:hover, .enlace-talentos:hover{
+    color: var(--naranja);
+}
+
+.box-convocatoria-titulo{
+    background: var(--naranja);
+}
+.box-convocatoria-titulo .box-titulo
+{
+    height: 100%;
+    width: 100%;
+}
+.box-convocatoria-titulo .box-titulo h2
+{
+    /*position: relative;*/
+    min-width: 500px;
+    transform: rotate(-90deg);
+    color: #fff;
+    font-weight: bold;
+}
+.box-convocatoria-contenido .box-fecha-sede
+{
+    /*border: 2px solid var(--naranja);*/
+    /*border: 2px solid var(--color-boton);*/
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.clear-box{
+    clear: both;
+}
+/*ajustes para tener las col del mismo alto*/
+/*inicio==============================*/
+.row {
+    /*display: table;*/
+}
+.row [class*="box-convocatoria-"] {
+    display: table-cell;
+    /* Propiedades de estilo, no afectan al funcionamiento */
+    /*text-align: center;*/
+}
+/*==============================fin*/
+
+.titulo-etika
+{
+    color:var(--titulo-color); 
+}
+.pie-dibel{
+    font-family:'Times New Roman',Verdana,Arial,sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 11px;
+    padding: 10px 0px 10px 0px;
+    background-color: #fff;
+}
+.btn-etika,.btn-etika:hover
+{
+    /*background: var(--naranja);*/
+    /*border: var(--naranja);*/
+    background: var(--color-boton);
+    border: var(--color-boton);
+    /*    background: #695E4B;
+        border: #695E4B;*/
+    color: #ffffff;
+}
+
+.solo_logo{
+    width: 30%;
+    height: auto;
+}
+/*responsive*/
+@media screen and (max-width:767px){
+    .box-convocatoria-titulo{
+        margin-bottom: 30px;
+    }
+    .box-convocatoria-titulo .box-titulo h2
+    {
+        margin-top: 8px;
+        min-width: 200px;
+        transform: rotate(0deg);
+        color: #fff;
+        font-weight: bold;
+    }
+    .box-convocatoria-contenido .box-fecha-sede
+    {
+        margin-right: 0px;
+        padding: 10px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:357px){
+    .box-fecha-sede{
+        margin-bottom: 10px;
+    }
+}
+.car-convocatoria-talento
+{
+    height: 140px; 
+    border: 1px solid var(--color-talento);
+    border-radius: 10px;
+    margin: 30px;
+}
+.box-solid-talento{
+    height: 50px;
+    background: var(--color-talento);
+    border-radius: 10px;
+}
+.box-solid-talento h3{
+    margin: 0;
+    color: #fff;
+}
+.titulos-convocatorias{
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.enlace-talentos{
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+}
+.enlace-talentos:hover{
+    text-decoration: none;
+}
+.bold{
+    font-weight: bold;
+}
+.sin-estilos:hover{
+    text-decoration: none;
+}
+
+/*#imagenes{
+    background-image: url(../img/plantillas/imagen1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 1000px;
+    min-height: 800px;
+}*/
+
+
+/*para la plantilla 2*/
+
+.car-box a:hover{
+    text-decoration: none;
+}
+
+.car-box a, .enlace-talentos,
+.car-box a:hover, .enlace-talentos:hover{
+    color: var(--naranja);
+}
+
+.box-convocatoria-titulo_2{
+    background: var(--naranja);
+    min-height: 120px; 
+}
+.box-convocatoria-titulo_2 .box-titulo
+{
+    height: 100%;
+    width: 100%;
+}
+.box-convocatoria-titulo_2 .box-titulo h2
+{
+    /*position: relative;*/
+    min-width: 500px;
+    /*transform: rotate(-90deg);*/
+    color: #fff;
+    font-weight: bold;
+}
+.box-convocatoria-contenido .box-fecha-sede
+{
+    /*border: 2px solid var(--naranja);*/
+    /*border: 2px solid var(--color-boton);*/
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.clear-box{
+    clear: both;
+}
+/*ajustes para tener las col del mismo alto*/
+/*inicio==============================*/
+
+/*==============================fin*/
+
+.titulo-etika
+{
+    color:var(--titulo-color); 
+}
+.pie-dibel{
+    font-family:'Times New Roman',Verdana,Arial,sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 11px;
+    padding: 10px 0px 10px 0px;
+    background-color: #fff;
+}
+.btn-etika,.btn-etika:hover
+{
+    /*background: var(--naranja);*/
+    /*border: var(--naranja);*/
+    background: var(--color-boton);
+    border: var(--color-boton);
+    /*    background: #695E4B;
+        border: #695E4B;*/
+    color: #ffffff;
+}
+
+/*poner capa negra transparente
+    background-color: rgba(0,0,0,0.8);
+    filter:brightness(0.4);*/
+/*#imagenes_2{
+    
+    background-image: url(../img/plantillas/plan_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+    width: 100%;
+    min-height: 320px;
+}*/
+
+#imagenes_3{
+    /*poner capa negra transparente
+    background-color: rgba(0,0,0,0.8);
+    filter:brightness(0.4);*/
+    background-image: url(../img/plantillas/imagen3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    min-height: 800px;
+}
+
+#titulo_imagen2{
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 90%;
+    margin-right: 10%;
+    background-color: #4F5869;
+    opacity: 0.8;
+
+    /*display: flex;
+    align-items: center;*/
+}
