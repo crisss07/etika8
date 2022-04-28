@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-06-2019, 04:06:35 PM
+    Author     : Soluciones
+*/
+:root{
+    --rojo:#695E4B;
+    --azul:#3C6980;
+}
+
+.box-banner
+{
+    height: 250px; 
+    overflow: hidden; 
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.masc-banner{
+    width: 100%;
+    height: 200px; 
+    position: absolute;
+    background: #3C6980;
+    top: 0;
+    opacity: .9;
+}
+.logo-etika{
+    position: relative;top: -200px;z-index: 2;
+}
+
+.img-100
+{
+    width: 100%;
+}
+.sin-padding{
+    padding: 0;
+}
+/*para los input*/
+.input-etika
+{
+    border: 0;
+    border-bottom: 1px solid #3C6980;
+    width: 100%;
+    border-radius: 0;
+    margin: 10px 0;
+}

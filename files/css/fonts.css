@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-ago-2019, 18:10:23
+    Author     : FERNANDO
+*/
+
+@font-face {
+    font-family: 'Myriad Web';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/Myriad Web Pro.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Myriad-Web';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/myriad-web-pro.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Myriad Web Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/myriadwebpro-bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Myriad Web Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/myriadwebpro-condenseditalic.ttf') format('truetype');
+}
+body{
+    font-family: 'Myriad Web';
+}
+label,p ,span{
+    font-family: 'Myriad Web' !important;
+}

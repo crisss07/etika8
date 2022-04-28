@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-06-2019, 10:15:52 AM
+    Author     : Fernando Choque
+*/
+@import url('./colors.css');
+.box-footer,.box-footer div{
+    /*background: var(--naranja);*/
+    background: var(--azul);
+}
+.box-footer #dibel,.box-footer #dibel a{
+    color: #ffffff !important;
+}
+.car-convocatoria{
+    height: 200px; 
+    border: 1px solid var(--azul);
+    border-radius: 10px;
+    margin: 30px;
+}
+.car-convocatoria2{
+    height: 130px; 
+    border: 1px solid var(--naranja);
+    border-radius: 10px;
+    margin: 10px;
+   
+   
+}
+.car-sede{
+    height: 200px;
+    /*background: var(--plomo);*/
+    background: var(--azul);
+    position: relative;
+    border-radius: 10px;
+}
+.car-sede2{
+    height: 130px;
+    background: var(--naranja);
+    position: relative;
+    border-radius: 10px;
+   
+}
+.car-sede span{
+    width: 200px;
+    position: absolute;
+    left: -70px;
+    top: 87px;
+    color: white;
+    text-align: center;
+    transform: rotate(-90deg);
+}
+.car-box a{
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.car-box a:hover{
+    text-decoration: none;
+}
+
+.box-convocatoria-titulo{
+    /*background: var(--plomo);*/
+    background: var(--azul);
+}
+.box-convocatoria-titulo .box-titulo
+{
+    height: 100%;
+    width: 100%;
+}
+.box-convocatoria-titulo .box-titulo h2
+{
+    /*position: relative;*/
+    min-width: 500px;
+    transform: rotate(-90deg);
+    color: #fff;
+    font-weight: bold;
+}
+.box-convocatoria-contenido .box-fecha-sede
+{
+    border: 2px solid var(--color-boton);
+    margin-right: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+.box-fecha-sede span{
+    font-size: 15px;
+}
+
+.clear-box{
+    clear: both;
+}
+/*ajustes para tener las col del mismo alto*/
+/*inicio==============================*/
+.row {
+    /*display: table;*/
+}
+.row [class*="box-convocatoria-"] {
+    display: table-cell;
+    /* Propiedades de estilo, no afectan al funcionamiento */
+    /*text-align: center;*/
+}
+/*==============================fin*/
+
+.titulo-etika
+{
+    color:#695E4B; 
+}
+.pie-dibel{
+    font-family:'Times New Roman',Verdana,Arial,sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 11px;
+    padding: 10px 0px 10px 0px;
+    background-color: #fff;
+}
+.btn-etika,.btn-etika:hover
+{
+    /*background: var(--naranja);*/
+    /*border: var(--naranja);*/
+    background: #ad1c62;
+    border: #ad1c62;
+/*    background: #695E4B;
+    border: #695E4B;*/
+    color: #ffffff;
+}
+/*responsive*/
+@media screen and (max-width:767px){
+    .box-convocatoria-titulo{
+        margin-bottom: 30px;
+    }
+    .box-convocatoria-titulo .box-titulo h2
+    {
+        margin-top: 8px;
+        min-width: 200px;
+        transform: rotate(0deg);
+        color: #fff;
+        font-weight: bold;
+    }
+    .box-convocatoria-contenido .box-fecha-sede
+    {
+        margin-right: 0px;
+        padding: 10px;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:357px){
+    .box-fecha-sede{
+        margin-bottom: 10px;
+    }
+}
